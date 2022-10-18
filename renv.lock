@@ -9,6 +9,14 @@
     ]
   },
   "Packages": {
+    "BH": {
+      "Package": "BH",
+      "Version": "1.78.0-0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4e348572ffcaa2fb1e610e7a941f6f3a",
+      "Requirements": []
+    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.1.3",
@@ -573,6 +581,19 @@
       "Repository": "CRAN",
       "Hash": "6a38294e7d12f5d8e656b08c5bd8ae34",
       "Requirements": []
+    },
+    "rgeoda": {
+      "Package": "rgeoda",
+      "Version": "0.0.9",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0a6697eb7a7626a37c522dd7fad8f688",
+      "Requirements": [
+        "BH",
+        "Rcpp",
+        "digest",
+        "sf"
+      ]
     },
     "rlang": {
       "Package": "rlang",
